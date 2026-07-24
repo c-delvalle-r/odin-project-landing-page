@@ -174,3 +174,13 @@ a {
 .call-to-action-text {
     font-weight: 300;
 }
+
+.footer-section {
+    background-color: var(--hero-bg-color);
+    color: var(--secondary-light-text-color);
+    font-size: 16px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
