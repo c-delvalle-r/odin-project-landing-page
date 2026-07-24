@@ -6,6 +6,12 @@
 
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto;
     margin: 0px;
@@ -23,7 +29,7 @@ a {
     margin-inline: auto;   /* Centers the element horizontally */
 }
 
-.header{
+.header-section{
     background-color: var(--hero-bg-color);
 }
 
@@ -54,4 +60,40 @@ a {
     margin: 0px;
     display: flex;
     gap: 20px;
+}
+
+.hero-section{
+    background-color: var(--hero-bg-color);
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 64px 0px;
+    gap: 10%;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--primary-light-text-color);
+}
+
+.hero-paragraph{
+    color: var(--secondary-light-text-color);
+    font-size: 18px;
+    margin: 16px 0px;
+}
+
+.blue-button{
+    margin-top: 16px;
+    color: var(--secondary-light-text-color);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--accent-color);
+    border: 1px solid var(--primary-light-text-color);
+    border-radius: 5px;
+    width: 130px;
+    height: 42px;
 }
