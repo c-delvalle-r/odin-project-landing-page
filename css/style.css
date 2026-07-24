@@ -97,3 +97,38 @@ a {
     width: 130px;
     height: 42px;
 }
+
+.information-title {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.information-content{
+    padding: 64px 0px;
+}
+
+.card-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 64px 0px;
+}
+
+.illustration-card {
+    max-width:min-content;
+}
+
+.carousel-image{
+    border: 1px solid var(--hero-bg-color);
+    border-radius: 16px;
+}
+
+.carousel-text {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 0px;
+}
+
