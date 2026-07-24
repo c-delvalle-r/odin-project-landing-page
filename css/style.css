@@ -1,6 +1,6 @@
 :root {
-    --hero-bg-color: #1F2937;
-    --accent-color: #3882F6;
+    --hero-bg-color: #123524;
+    --accent-color: #006747;
     --primary-light-text-color: #F9FAF8;
     --secondary-light-text-color: #E5E7EB;
 
@@ -68,6 +68,7 @@ a {
 
 .hero-content{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 64px 0px;
