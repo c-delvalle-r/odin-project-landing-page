@@ -1,0 +1,57 @@
+:root {
+    --hero-bg-color: #1F2937;
+    --accent-color: #3882F6;
+    --primary-light-text-color: #F9FAF8;
+    --secondary-light-text-color: #E5E7EB;
+
+}
+
+body {
+    font-family: Roboto;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-light-text-color);
+}
+
+.content-container {
+    width: 80%;            /* Fills 80% of the screen width */
+    max-width: 1200px;     /* Prevents layout from getting too wide on giant monitors */
+    margin-inline: auto;   /* Centers the element horizontally */
+}
+
+.header{
+    background-color: var(--hero-bg-color);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    filter: invert(90%);
+}
+
+.logo-name {
+    font-weight: bolder;
+    font-size: 24px;
+    color: var(--primary-light-text-color);
+}
+
+.header-menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+}
